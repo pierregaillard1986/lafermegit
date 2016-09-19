@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Bienvenue chez Perette</title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Antic|Harmattan|Josefin+Slab|Scope+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="fds.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a class="js-scrollTo" href="#ourfarm">Notre ferme</a></li>
+					<li><a class="js-scrollTo" href="#ourproducts">Nos produits</a></li>
+					<li><a class="js-scrollTo" href="#ourcows">Nos vaches</a></li>
+				</ul>
+				<form class="navbar-form navbar-nav navbar-right">
+					<button type="button" class="btn btn-success btn-lg">Contactez-moi</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<!-- Bandeau d'acceuil -->
+		<div class="row">
+			<div class="col-md-12 header">
+				<img src="img/pelouseheadernew.jpg">
+				<h1 class="text-center"><img src="img/daisy.png" alt="photo de fleur"> La Ferme de Perette <img src="img/daisy.png" alt="photo de fleur"> </h1>
+			</div>
+			<!-- La ferme -->
+			<div class="col-md-12" id="ourfarm">
+				<img src="img/ferme/ferme1new.jpg">
+				<div class="first">
+					<h2> Notre ferme </h2>
+					<p>Au cœur de la Normandie, à deux pas de l’un des Plus Beaux Villages de France et de sa célèbre abbaye, notre ferme propose des produits frais de grande qualité. Notre production est réalisée dans un respect absolu de l’environnement, et en harmonie
+						totale avec nos animaux.
+						<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#laferme"> Notre ferme </button></p>
+				</div>
+			</div>
+			<!--Modale ferme-->
+			<div class="modal fade" id="laferme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel"> La ferme </h4>
+						</div>
+						<div class="modal-body">
+							<!--carousel-->
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="img/ferme/ferme2.jpg" alt="photo de ferme">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="img/ferme/ferme3.jpg" alt="photo de ferme">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="img/ferme/ferme4.jpg" alt="photo de ferme">
+										<div class="carousel-caption"></div>
+									</div>
+									<div class="item">
+										<img src="img/ferme/ferme5.jpg" alt="photo de ferme">
+										<div class="carousel-caption"></div>
+									</div>
+								</div>
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Nos produits -->
+			<div class="col-md-12" id="ourproducts">
+				<img src="img/produits/moulagenew.jpg">
+				<div class="second">
+					<h2> Nos Produits </h2>
+					<p>Notre ferme normande recèle de trésors révèlant un subtil mélange de terroir et de savoir-faire. Profitez d’un marché ou d’une visite pour découvrir les produits de la ferme dont la Normandie est si généreuse : lait, faisselle, yaourt, fromages,
+						et oeufs frais produits tous les jours par nos propres vaches. Les produits de la ferme de Perette sont savoureux et goûtus. Rendez-vous ci-dessous pour découvrir et réserver vos produits.
+						<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#nosproduits"> Nos produits </button></p>
+				</div>
+			</div>
+			<div class="modal fade" id="nosproduits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="nosproduits"> Nos produits </h4>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<!-- lait entier -->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/lait.jpg" alt="photo de lait" class="responsive">
+											<div class="caption">
+												<p>Le lait <br />entier</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!-- lait écrémé -->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/lait.jpg" alt="photo de lait" class="responsive">
+											<div class="caption">
+												<p>Le lait <br />écrémé</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!-- faisselle -->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/faisselle.jpg" alt="photo de faisselle" class="responsive">
+											<div class="caption">
+												<p>La <br /> faisselle</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!--yahourt-->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/yahourt.jpg" alt="photo de yahourt" class="responsive">
+											<div class="caption">
+												<p>Le <br />yahourt</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!--pont l'eveque-->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/fromage.jpg" alt="photo de fromage" class="responsive">
+											<div class="caption">
+												<p>Le pont l'évèque</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!-- neufchatel-->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/fromage1.jpg" alt="photo de fromage" class="responsive">
+											<div class="caption">
+												<p>Le neufchâtel</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!--camembert-->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/fromage2.jpg" alt="photo de fromage" class="responsive">
+											<div class="caption">
+												<p>Le camembert</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+									<!--oeufs de vache-->
+									<div class="col-sm-6 col-md-4 col-lg-3">
+										<div class="thumbnail text-center">
+											<img src="img/produits/oeufvache.jpg" alt="photo de fromage" class="responsive">
+											<div class="caption">
+												<p>Les oeufs de vache</p>
+												<button type="button" class="btn btn-success">Réserver
+<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Nos vaches -->
+			<div class="col-md-12" id="ourcows">
+				<img src="img/vaches/vache14new.jpg">
+				<div class="third">
+					<h2> Nos Vaches </h2>
+					<p>Véritables porte-drapeau de notre ferme, nos vaches sont les dignes héritières des terres normandes. Nous vous proposons de les sponsoriser et de faire partie de leur vie à la ferme. Vous bénéficierez de 10% de remise immédiate sur les produits de
+						votre panier, ainsi que d’un tatouage de votre choix sur la vache sponsorisée.
+						<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#nosvaches"> Nos vaches </button></p>
+				</div>
+			</div>
+			<div class="modal fade" id="nosvaches" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel"> Nos vaches </h4>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache1.jpg" alt="vache1" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Paulette</p>
+												<button type="button" class="btn btn-success">Je sponsorise Paulette </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache2.jpg" alt="vache2" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Huguette</p>
+												<button type="button" class="btn btn-success">Je sponsorise Huguette </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache3.jpg" alt="vache3" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Marguerite</p>
+												<button type="button" class="btn btn-success">Je sponsorise Marguerite </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache4.jpg" alt="vache4" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Fernande</p>
+												<button type="button" class="btn btn-success">Je sponsorise Fernande </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache5.jpg" alt="vache5" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Josephine</p>
+												<button type="button" class="btn btn-success">Je sponsorise Josephine </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache6.jpg" alt="vache6" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Colette</p>
+												<button type="button" class="btn btn-success">Je sponsorise Colette </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache7.jpg" alt="vache7" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Christinette</p>
+												<button type="button" class="btn btn-success">Je sponsorise Christinette </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache8.jpg" alt="vache8" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Bleuette</p>
+												<button type="button" class="btn btn-success">Je sponsorise Bleuette </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache9.jpg" alt="vache9" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Capucine</p>
+												<button type="button" class="btn btn-success">Je sponsorise Capucine </button>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-5">
+										<div class="thumbnail text-center">
+											<img src="img/vaches/profil/vache10.jpg" alt="vache10" class="img-circle" class="responsive">
+											<div class="caption">
+												<p>Hermine</p>
+												<button type="button" class="btn btn-success">Je sponsorise Hermine </button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<br /> <br /> <br />
+	</div>
+	<div class="container-fluid">
+		<div class="row footer">
+			<a href="tel:+33203444243">Appelez-nous |</a>
+			<a href="mailto:lafermedeperette@lavache.fr">Envoyez-nous un email |</a>
+			<a href="https://www.google.fr/maps/place/La+Grande+ville,+53470+Martign%C3%A9-sur-Mayenne/@48.1972273,-0.7449673,12z/data=!4m5!3m4!1s0x4809077f841d5b0b:0x18eb9be90576ed05!8m2!3d48.1972237!4d-0.6749241?hl=fr" target="_blank">5 Allée Des Champs 53470 La Grande Ville</a>
+			<a href="http://www.facebook.com" target="_blank">| FACEBOOK </a>
+		</div>
+	</div>
+	<!--script Jquery-->
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 1000; // Durée de l'animation (en ms)
+				$('html, body').animate({
+					scrollTop: $(page).offset().top
+				}, speed); // Go
+				return false;
+			});
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+body{
+	font-size: 13px;
+}
+img {
+    width: 100%;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    font-size: 1.5em;
+    vertical-align: bottom;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    font-family: 'Amatic SC', cursive!important;
+    font-size: 2em;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 img {
+    width: 10%;
+}
+
+.first {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    text-align: center;
+    position: justify;
+    width: 30%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+}
+
+.second {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    position: justify;
+    width: 30%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+}
+
+.third {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 14%;
+    right: 10%;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    text-align: center;
+    position: justify;
+    width: 30%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 2.2em;
+    text-align: justify;
+}
+
+p button {
+    font-family: 'Antic', sans-serif;
+    font-size: 6em;
+    float: right;
+}
+
+.caption p {
+    font-size: 1.5em;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+}
+
+a:hover, a, a:visited, a:active {
+    color: green!important;
+}
+
+
+/*MEDIA*/
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+    .footer {
+        position: fixed;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2.5em;
+        bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 5em;
+        font-family: 'Amatic SC', cursive;
+    }
+    @media (min-width: 768px) {
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            font-size: 1.5em;
+            vertical-align: bottom;
+        }
+    }
+    .first {
+        position: absolute;
+        top: 14%;
+        right: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.9em;
+        text-align: center;
+        position: justify;
+        width: 60%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        border-radius: 10px;
+    }
+    .second {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        color: white;
+        text-align: center;
+        font-size: 0.9em;
+        position: justify;
+        width: 60%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        border-radius: 10px;
+    }
+    .third {
+        position: absolute;
+        top: 9%;
+        right: 2%;
+        color: white;
+        text-align: center;
+        font-size: 0.9em;
+        text-align: center;
+        position: justify;
+        width: 60%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+    }
+}
+
+
+/*MEDIA*/
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .footer {
+        position: fixed;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2em;
+        bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 3.5em;
+        font-family: 'Amatic SC', cursive;
+    }
+    @media (min-width: 768px) {
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            font-size: 0.8em;
+            vertical-align: bottom;
+        }
+    }
+    .first {
+        position: absolute;
+        top: 11%;
+        right: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.7em;
+        text-align: center;
+        position: justify;
+        width: 70%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        border-radius: 10px;
+    }
+    .second {
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.7em;
+        position: justify;
+        width: 70%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        border-radius: 10px;
+    }
+    .third {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.7em;
+        text-align: center;
+        position: justify;
+        width: 70%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .first {
+        position: absolute;
+        top: 9%;
+        right: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.45em;
+        text-align: center;
+        position: justify;
+        width: 90%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        border-radius: 10px;
+    }
+    .second {
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.45em;
+        position: justify;
+        width: 90%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        border-radius: 10px;
+    }
+    .third {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        color: white;
+        text-align: center;
+        font-size: 0.45em;
+        text-align: center;
+        position: justify;
+        width: 90%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+    }
+    .footer {
+        text-align: center;
+        font-size: 1.4em;
+        text-decoration: none;
+        color: green;
+				height: auto;
+    }
+}
+@media (min-width: 200px) and (max-width: 500px) {
+	h1 {
+			font-size: 1em;
+	}
+	.first {
+			position: absolute;
+			top: 9%;
+			right: 5%;
+			color: white;
+			text-align: center;
+			font-size: 0.3em;
+			text-align: center;
+			position: justify;
+			width: 90%;
+			background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+			border-radius: 10px;
+	}
+	.second {
+			position: absolute;
+			top: 0%;
+			left: 5%;
+			color: white;
+			text-align: center;
+			font-size: 0.3em;
+			position: justify;
+			width: 90%;
+			background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+			border-radius: 10px;
+	}
+	.third {
+			position: absolute;
+			top: 2%;
+			right: 5%;
+			color: white;
+			text-align: center;
+			font-size: 0.3em;
+			text-align: center;
+			position: justify;
+			width: 90%;
+			background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+			border-radius: 10px;
+	}
+	.footer {
+			text-align: center;
+			font-size: 1em;
+			text-decoration: none;
+			color: green;
+			height: auto;
+	}
+}
